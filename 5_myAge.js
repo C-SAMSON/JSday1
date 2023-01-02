@@ -4,4 +4,6 @@ function myAge (age) {
     } else {
         return "Majeur";
     }
-};
+}
+
+module.export = myAge;
