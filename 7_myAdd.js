@@ -3,4 +3,4 @@ function myAdd(a, b) {
     return c;
 }
 
-module.export = myAdd;
+module.exports = myAdd;

@@ -1,4 +1,3 @@
-const getNumber = require("./4_myGetNbr.js");
+const getNumber = require("./7_myAdd.js");
 
-let a = prompt ("Number"); 
-console.log(getNumber(a)); 
+console.log(getNumber(12, 15));

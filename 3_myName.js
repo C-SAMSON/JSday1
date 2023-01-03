@@ -1,4 +1,4 @@
-function myName () {
+function myName() {
     let myName = "Robert"
     return myName
 }
