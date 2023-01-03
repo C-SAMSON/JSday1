@@ -1,3 +1,3 @@
-const getNumber = require("./firTree.js");
+const getNumber = require("./19_myRemoveTail.js");
 
-console.log(getNumber(6));
+console.log(getNumber(["c", "a", "d", "q", "r", "t", "d"]));
