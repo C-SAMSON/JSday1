@@ -1,7 +1,4 @@
-const Example = require("./1_Example.js");
- 
-console.log(Example());
+const getNumber = require("./4_myGetNbr.js");
 
-const InputArgs = require("./2_InputArgs.js");
- 
-console.log(InputArgs(42, 84)); 
+let a = prompt ("Number"); 
+console.log(getNumber(a)); 
