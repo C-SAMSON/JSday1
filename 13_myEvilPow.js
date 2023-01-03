@@ -1,9 +1,9 @@
-function evilPow(a, b) {
-    let c = a;
-    for (let k = 1; k < b; k++) {
-        c *= a;
-    }
-    return c;
+function evilPow(a, b, c = a) {
+    if (b === 0)
+        return;
+    c *= a;
+    b -= 1
+    evilPow(a, b, c);
 }
 
-module.exports = evilPow;
+// module.exports = evilPow;
