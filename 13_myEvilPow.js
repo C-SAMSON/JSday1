@@ -1,9 +1,7 @@
-function evilPow(a, b, c = a) {
+function evilPow(a, b) {
     if (b === 0)
-        return;
-    c *= a;
-    b -= 1
-    evilPow(a, b, c);
+        return 1;
+    return a * evilPow(a, b-1);
 }
 
-// module.exports = evilPow;
+module.exports = evilPow;

@@ -1,3 +1,3 @@
-const getNumber = require("./13_myEvilPow.js");
+const getNumber = require("./14_myStrnCpy.js");
 
-console.log(getNumber(5, 3));
+console.log(getNumber("hello", 15));
