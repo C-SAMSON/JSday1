@@ -1,3 +1,3 @@
-const getNumber = require("./7_myAdd.js");
+const getNumber = require("./10_myEvilStr.js");
 
-console.log(getNumber(12, 15));
+console.log(getNumber("abc"));
