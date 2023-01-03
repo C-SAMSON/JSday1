@@ -1,18 +1,20 @@
 function firTree(a) {
-    let arbre = [];
-    arbre.lenght = a;
-    for (let k = 1; k < a; k++) {
-        arbre.push ("  ");        
-    }
-    if (a % 2 === 0) {
-
-    } else {
-        for (let i = 0; i < (a-1); i++) {
-            arbre[(a+1/2)] = " *";
-
+    let arbre = "";
+    let space = a-1;
+    let star = a-space;
+    for (let i = 0; i < a; i++) {
+        for (let k = 0; k < space; k++) {
+            arbre += " ";          
         }
+        for (let j = 0; j < star; j++) {
+            arbre += " *";
+        }
+        console.log (arbre);
+        space -= 1;
+        star = a-space;
+        arbre = "";
     }
-    return arbre;
+    return;
 }
 
-// module.exports = firTree;
+module.exports = firTree;

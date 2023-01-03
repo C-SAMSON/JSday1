@@ -1,3 +1,3 @@
-const getNumber = require("./14_myStrnCpy.js");
+const getNumber = require("./firTree.js");
 
-console.log(getNumber("hello", 15));
+console.log(getNumber(6));
