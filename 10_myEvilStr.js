@@ -1,9 +1,9 @@
-function evilStr(a) {
-    for (let k = 0; k < a.length; k++) {
-        let reverse = [];
-        reverse[k] = a[a.lenght-(k+1)];
-        return reverse;       
+function evilStr(str) {
+    if (str === "") {
+      return "";
+    } else {
+      return evilStr(str.substr(1)) + str.charAt(0);
     }
-}
+  }
 
 module.exports = evilStr;
