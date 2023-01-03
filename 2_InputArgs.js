@@ -1,4 +1,4 @@
-function main (a, b) {
+function main(a, b) {
     return b;
 }
 
