@@ -1,3 +1,3 @@
-const getNumber = require("./24_myConcat.js");
+const getNumber = require("./toDoList.js");
 
-console.log(getNumber([], []));
+console.log(getNumber(["3", "4", "5"]));

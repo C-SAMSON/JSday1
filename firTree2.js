@@ -1,6 +1,4 @@
-function firTree(a) {
-    let arbre = "";
-    let space;
+function spaceout(a) {
     if (a < 3) 
         space = a*3;
     else if (a === 3)
@@ -11,6 +9,13 @@ function firTree(a) {
             space += z;    
         }
     }
+    return space;
+}
+
+function firTree(a) {
+    let arbre = "";
+    let space;
+    space = spaceout(a);
     let star = 1;
     let b = 4;
     for (let l = 0; l < a; l++) {
@@ -35,8 +40,9 @@ function firTree(a) {
             star -= 6;
         }
     }
+    space = spaceout(a);
     for (let m = 0; m < a; m++) {
-        for (let o = 0; o < ((star-(a/2))/2); o++) {
+        for (let o = 0; o < space-a/2; o++) {
             arbre += " ";
         }
         for (let n = 0; n < a; n++) {
