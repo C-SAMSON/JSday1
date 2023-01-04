@@ -1,3 +1,3 @@
-const getNumber = require("./21_myAgeFilter.js");
+const getNumber = require("./24_myConcat.js");
 
-console.log(getNumber([3, 12, 24, 16, 19]));
+console.log(getNumber([], []));
