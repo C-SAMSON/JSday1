@@ -1,3 +1,3 @@
-const getNumber = require("./19_myRemoveTail.js");
+const getNumber = require("./21_myAgeFilter.js");
 
-console.log(getNumber(["c", "a", "d", "q", "r", "t", "d"]));
+console.log(getNumber([3, 12, 24, 16, 19]));
