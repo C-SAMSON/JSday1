@@ -22,3 +22,4 @@ class Admin extends User {
 // console.log(me.role); 
 
 module.exports = Admin;
+module.exports = Admin;
