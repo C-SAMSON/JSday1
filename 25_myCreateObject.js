@@ -7,5 +7,5 @@ function createIdentity(fName, lName, pAge) {
     return identity;
 }
 
-console.log(createIdentity("Corentin", "SAMSON", 25));
+// console.log(createIdentity("Corentin", "SAMSON", 25));
 module.exports = createIdentity;
